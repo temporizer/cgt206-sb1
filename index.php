@@ -5,6 +5,7 @@
 	<title>Truth About Tattoos - T.A.T.</title>
 	<link rel="stylesheet" href="css/style.css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Metal+Mania' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 </head>
@@ -17,8 +18,9 @@
 			<div class="title">
 				<!-- <p>Truth About Tattoos<p> -->
 			</div>
-
+			
 			<nav>
+				<div class="menu"><i class="fa fa-bars"></i></div>
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">About</a></li>

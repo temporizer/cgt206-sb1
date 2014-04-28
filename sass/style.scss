@@ -16,6 +16,8 @@ header {
 		background: url("../images/logo4.png") black;
 		height: 137px;
 		width: 320px;
+		box-shadow: 0px 5px 5px rgba(190, 0, 0, 0.5);
+		margin-bottom: 8px;
 
 	}
 
@@ -24,7 +26,20 @@ header {
 	}
 
 	nav {
+		position: relative;
+		.menu {
+			font-size: 32px;
+			cursor: pointer;
+			display: inline-block;
+			position: absolute;
+			color: rgba(190,0,0,1);
+			background: black;
+			top: -42px;
+			right: 8px;
+			z-index: 1000;
+		}
 		ul {
+			display: none;
 			li {
 				a {
 
