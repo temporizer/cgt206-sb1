@@ -12,14 +12,21 @@
 	<section id="wrapper">
 		<header>
 			<div class="logo">
-				<p>T.A.T.</p>
+
 			</div>
 			<div class="title">
-				<p>Truth About Tattoos<p>
+				<!-- <p>Truth About Tattoos<p> -->
 			</div>
 
 			<nav>
-
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Addiction?</a></li>
+					<li><a href="#">Responsibility</a></li>
+					<li><a href="#">Media</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
 			</nav>
 		</header> <!-- end header -->
 
@@ -32,7 +39,10 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum pariatur repudiandae vitae eligendi saepe illo nam illum. Distinctio, maxime inventore sint saepe facilis perspiciatis in repellendus maiores sequi. Saepe, optio, recusandae expedita magni cupiditate quis est dolorem natus unde tempore nemo minus in maxime ex incidunt eum consequatur tenetur atque neque sequi provident exercitationem velit ad iusto animi temporibus earum corporis consectetur reprehenderit ducimus officiis quos voluptatem culpa? Explicabo, repudiandae, unde magnam saepe dolores officia beatae animi dolorum asperiores tempora facere aut dicta modi quae sapiente non consectetur doloribus similique ex debitis neque obcaecati atque ea soluta quo assumenda corporis.</p>
 
 		</section> <!-- end content -->
-
+		
+		<footer>
+			
+		</footer>
 	</section> <!-- end wrapper -->
 
 

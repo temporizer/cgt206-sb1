@@ -65,53 +65,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 4, ../sass/style.scss */
 body {
-  font-family: "Candara";
+  font-family: "Candara", sans-serif;
   font-size: 1em;
 }
 
-/* line 10, ../sass/style.scss */
-header {
-  background: black;
-  height: 150px;
-}
-
-/* line 14, ../sass/style.scss */
-.logo {
-  width: 350px;
-  height: 150px;
-  font-size: 128px;
-  font-family: "Metal Mania";
-  text-align: center;
-  background: black;
-  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
-  line-height: 140px;
-  display: inline-block;
-}
-
-/* line 30, ../sass/style.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Fredericka the Great";
-}
-
-/* line 34, ../sass/style.scss */
-h1 {
-  font-size: 3em;
-}
-
-/* line 38, ../sass/style.scss */
-.title {
-  font-family: "Metal Mania";
-  font-size: 5.5em;
-  color: rgba(255, 255, 255, 0.7);
-  display: inline-block;
-}
-/* line 44, ../sass/style.scss */
-.title p {
-  letter-spacing: 12px;
-}
-
-/* line 51, ../sass/style.scss */
-#content p {
-  font-size: 1.5em;
-  line-height: 1.2em;
+/* line 15, ../sass/style.scss */
+header .logo {
+  background: url("../images/logo4.png") black;
+  height: 137px;
+  width: 320px;
 }

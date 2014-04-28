@@ -4,52 +4,46 @@
 body {
 	font-family: $body;
 	font-size: 1em;
-	// padding: 10px;
+}
+
+#wrapper {
+
 }
 
 header {
-	background: black;
-	height: 150px;
-}
-.logo {
-	width: 350px;
-	height: 150px;
-	// border: 1px solid black;
-	font-size: 128px;
-	font-family: $title;
-	text-align: center;
-	background: black;
-	// color: rgba(100,0,0,1);
-	text-shadow: 0px 0px 10px rgba(255,255,255,0.7);
-	line-height: 140px;
-	// padding: 10px;
-	// border-radius: 150%;
-	display: inline-block;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $headers;
-}
+	.logo {
+		background: url("../images/logo4.png") black;
+		height: 137px;
+		width: 320px;
 
-h1 {
-	font-size: 3em;
-}
-
-.title {
-	font-family: $title;
-	font-size: 5.5em;
-	color: rgba(255,255,255,0.7);
-	display: inline-block;
-
-	p {
-		letter-spacing: 12px;
-		
 	}
+
+	.title {
+
+	}
+
+	nav {
+		ul {
+			li {
+				a {
+
+				}
+			}
+		}
+	}
+
+
+}
+
+#sidebar {
+
 }
 
 #content {
-	p {
-		font-size: 1.5em;
-		line-height: 1.2em;
-	}
+
+}
+
+footer {
+
 }
