@@ -1,53 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Truth About Tattoos - T.A.T.</title>
-	<link rel="stylesheet" href="css/style.css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Metal+Mania' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<?php include 'includes/header.inc.php'; ?>
+			<h1>Welcome to T.A.T.</h1>
+			<img class="img img-center" src="images/tat24.jpg" alt="">
 
-</head>
-<body>
-	<section id="wrapper">
-		<header>
-			<div class="logo">
+			<p>This is Truth About Tattoos. We give you the facts, and you decide if tattoos are up your alley.</p>
+			<p>We have a several pages here including: 
+			<ul>
+				<li>
+					Responsibilities that you as a consumer as well as being an artist should be aware of. 
+				</li>
+				<li>
+					Resources that we have gathered our information from.
+				</li>
+				<li>
+					An Addiction? page that discusses whether tattooing is addictive or not.
+				</li>
+			</ul>
+				Plus more.
+			</p>
+			<p>
+				Enjoy your stay, and if you have any questions, please feel free to <a href="contact.php">contact</a> us
+			</p>
 
-			</div>
-			<div class="title">
-				<!-- <p>Truth About Tattoos<p> -->
-			</div>
-
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Addiction?</a></li>
-					<li><a href="#">Responsibility</a></li>
-					<li><a href="#">Media</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
-		</header> <!-- end header -->
-
-		<section id="sidebar">
-
-		</section> <!-- end sidebar -->
-
-		<section id="content">
-			<h1>This is a header</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum pariatur repudiandae vitae eligendi saepe illo nam illum. Distinctio, maxime inventore sint saepe facilis perspiciatis in repellendus maiores sequi. Saepe, optio, recusandae expedita magni cupiditate quis est dolorem natus unde tempore nemo minus in maxime ex incidunt eum consequatur tenetur atque neque sequi provident exercitationem velit ad iusto animi temporibus earum corporis consectetur reprehenderit ducimus officiis quos voluptatem culpa? Explicabo, repudiandae, unde magnam saepe dolores officia beatae animi dolorum asperiores tempora facere aut dicta modi quae sapiente non consectetur doloribus similique ex debitis neque obcaecati atque ea soluta quo assumenda corporis.</p>
-
-		</section> <!-- end content -->
-		
-		<footer>
-			
-		</footer>
-	</section> <!-- end wrapper -->
-
-
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script src="js/script.js"></script>
-</body>
-</html>
+<?php include 'includes/footer.inc.php'; ?>
