@@ -120,6 +120,13 @@ h4 {
 	padding: 5px;
 	background-color: white;
 }
+img {
+	opacity: 0.5;
+}
+
+img:hover {
+	opacity: 1;
+}
 
 .img-center {
 	margin: 5px auto 15px auto;
@@ -187,7 +194,7 @@ footer {
 
 	ul {
 		li {
-			
+
 		}
 	}
 
