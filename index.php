@@ -1,6 +1,6 @@
 <?php include 'includes/header.inc.php'; ?>
 			<h1>Welcome to T.A.T.</h1>
-			<img class="img img-center" src="images/tat24.jpg" alt="">
+			<img class="img img-center" src="images/tat24_thumb.jpg" alt="">
 
 			<p>This is Truth About Tattoos. We give you the facts, and you decide if tattoos are up your alley.</p>
 			<p>We have a several pages here including: 
@@ -20,5 +20,19 @@
 			<p>
 				Enjoy your stay, and if you have any questions, please feel free to <a href="contact.php">contact</a> us
 			</p>
+
+			<section id="masonry" class="js-masonry"
+  data-masonry-options='{ "columnWidth": 200, "itemSelector": ".items" }'>
+				<?php 
+					for ($i = 1; $i <= 30; $i++ ) {
+						?>
+							<a href="images/tat<?php echo $i; ?>.png" data-lightbox="image-1" data-title="My caption"><img class="items" src="images/thumbs/tat<?php echo $i; ?>.jpg" alt=""></a>
+							
+						<?php
+					}
+				 ?>
+
+
+			</section>
 
 <?php include 'includes/footer.inc.php'; ?>

@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/style.css" media="screen">
 	<link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Metal+Mania' rel='stylesheet' type='text/css'>
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 </head>
