@@ -6,13 +6,13 @@
 			<p>We have a several pages here including: 
 			<ul>
 				<li>
-					Responsibilities that you as a consumer as well as being an artist should be aware of. 
+					<a href="responsibility.php" title="Responsibilities">Responsibilities</a> that you as a consumer as well as being an artist should be aware of. 
 				</li>
 				<li>
-					Resources that we have gathered our information from.
+					<a href="resources.php" title="Resources">Resources</a> that we have gathered our information from.
 				</li>
 				<li>
-					An Addiction? page that discusses whether tattooing is addictive or not.
+					An <a href="addiction.php" title="Addiction?">Addiction?</a> page that discusses whether tattooing is addictive or not.
 				</li>
 			</ul>
 				Plus more.

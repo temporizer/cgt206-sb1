@@ -9,6 +9,7 @@
 
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

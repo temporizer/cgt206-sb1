@@ -267,7 +267,7 @@ html, body {
     text-align: center;
   }
 
-  /* line 188, ../sass/style.scss */
+  /* line 194, ../sass/style.scss */
   .title {
     position: absolute;
     color: white;
@@ -278,7 +278,7 @@ html, body {
   }
 }
 @media (min-width: 695px) {
-  /* line 200, ../sass/style.scss */
+  /* line 206, ../sass/style.scss */
   .title {
     top: 45px;
     left: 325px;
