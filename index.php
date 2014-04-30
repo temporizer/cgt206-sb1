@@ -26,7 +26,7 @@
 				<?php 
 					for ($i = 1; $i <= 30; $i++ ) {
 						?>
-							<a href="images/tat<?php echo $i; ?>.png" data-lightbox="image-1" data-title="My caption"><img class="items" src="images/thumbs/tat<?php echo $i; ?>.jpg" alt=""></a>
+							<a href="images/tat<?php echo $i; ?>.png" data-lightbox="image-1" data-title="My caption"><img class="items lb" src="images/thumbs/tat<?php echo $i; ?>.jpg" alt=""></a>
 							
 						<?php
 					}

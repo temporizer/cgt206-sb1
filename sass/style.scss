@@ -120,12 +120,18 @@ h4 {
 	padding: 5px;
 	background-color: white;
 }
-img {
+img.lb {
 	opacity: 0.5;
 }
 
-img:hover {
+img.lb:hover {
 	opacity: 1;
+}
+
+#masonry {
+	margin-left: 30px;
+	margin-top: 25px;
+
 }
 
 .img-center {

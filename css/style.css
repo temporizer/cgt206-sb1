@@ -179,36 +179,42 @@ h4 {
 }
 
 /* line 123, ../sass/style.scss */
-img {
+img.lb {
   opacity: 0.5;
 }
 
 /* line 127, ../sass/style.scss */
-img:hover {
+img.lb:hover {
   opacity: 1;
 }
 
 /* line 131, ../sass/style.scss */
+#masonry {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+/* line 137, ../sass/style.scss */
 .img-center {
   margin: 5px auto 15px auto;
   display: block;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 #content {
   margin: 0 25px;
   max-width: 920px;
 }
-/* line 143, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 #content ul {
   padding-left: 5px;
 }
-/* line 145, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 #content ul li {
   margin: 7px 10px;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 footer {
   height: 50px;
 }
@@ -239,31 +245,31 @@ html, body {
 }
 
 @media (min-width: 600px) {
-  /* line 161, ../sass/style.scss */
+  /* line 167, ../sass/style.scss */
   header .logo {
     height: 170px;
   }
-  /* line 165, ../sass/style.scss */
+  /* line 171, ../sass/style.scss */
   header nav {
     text-align: center;
   }
-  /* line 166, ../sass/style.scss */
+  /* line 172, ../sass/style.scss */
   header nav .menu {
     display: none;
   }
-  /* line 170, ../sass/style.scss */
+  /* line 176, ../sass/style.scss */
   header nav ul {
     margin: 0 auto;
     top: -43px;
     display: block;
     box-shadow: none;
   }
-  /* line 175, ../sass/style.scss */
+  /* line 181, ../sass/style.scss */
   header nav ul li {
     display: inline-block;
     margin: 0 5px;
   }
-  /* line 178, ../sass/style.scss */
+  /* line 184, ../sass/style.scss */
   header nav ul li a {
     background: none;
     padding: 0 5px;
@@ -271,13 +277,13 @@ html, body {
     border-top-left-radius: 3px;
   }
 
-  /* line 190, ../sass/style.scss */
+  /* line 196, ../sass/style.scss */
   #content {
     margin: 0 25px;
     text-align: center;
   }
 
-  /* line 201, ../sass/style.scss */
+  /* line 207, ../sass/style.scss */
   .title {
     position: absolute;
     color: white;
@@ -288,7 +294,7 @@ html, body {
   }
 }
 @media (min-width: 695px) {
-  /* line 213, ../sass/style.scss */
+  /* line 219, ../sass/style.scss */
   .title {
     top: 45px;
     left: 325px;
