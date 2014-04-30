@@ -1,6 +1,6 @@
 <?php 
 
-$pages = ['about', 'addiction', 'responsibility', 'resources', 'contact'];
+$pages = ['about', 'addiction', 'responsibility', 'resources', 'gallery', 'contact'];
 
 function titlePage() {
 	$self = explode('/', $_SERVER['PHP_SELF']);

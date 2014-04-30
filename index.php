@@ -21,18 +21,6 @@
 				Enjoy your stay, and if you have any questions, please feel free to <a href="contact.php">contact</a> us
 			</p>
 
-			<section id="masonry" class="js-masonry"
-  data-masonry-options='{ "columnWidth": 200, "itemSelector": ".items" }'>
-				<?php 
-					for ($i = 1; $i <= 30; $i++ ) {
-						?>
-							<a href="images/tat<?php echo $i; ?>.png" data-lightbox="image-1" data-title="My caption"><img class="items lb" src="images/thumbs/tat<?php echo $i; ?>.jpg" alt=""></a>
-							
-						<?php
-					}
-				 ?>
-
-
-			</section>
+			
 
 <?php include 'includes/footer.inc.php'; ?>

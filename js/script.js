@@ -8,4 +8,12 @@ $(document).ready(function() {
 	        $("nav").removeAttr('style');  
 	    }  
 	});
+
+
+var $container = $('#masonry');
+// initialize
+$container.masonry({
+  columnWidth: 200,
+  itemSelector: '.items'
+});
 })
